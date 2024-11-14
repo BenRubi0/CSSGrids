@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="module">
+        import { init } from './scripts/moduleInitializer.js';
+        init();
+    </script>
+    <title>Grids</title>
+</head>
+<body>
+    <button class="button" id="open-grid1-button" type="button">
+        Close grid 1
+    </button>
+
+    <button class="button" id="open-grid2-button" type="button">
+        Close grid 2
+    </button>
+
+    <div class="grid" id="grid1">
+        <table id="grid-table">
+            <tr>
+                <td>
+                    <div class="grid-item" id="grid1-item1"></div>
+                </td>
+                <td>
+                    <div class="grid-item" id="grid1-item2"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="grid" id="grid2">
+        <table id="grid-table">
+            <tr>
+                <td>
+                    <div class="grid-item" id="grid2-item1"></div>
+                </td>
+                <td>
+                    <div class="grid-item" id="grid2-item2"></div>
+                </td>
+                <td>
+                    <div class="grid-item" id="grid2-item3"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
